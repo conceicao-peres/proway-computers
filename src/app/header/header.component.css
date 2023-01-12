@@ -13,11 +13,13 @@
 }
 
 .main-header__title--blue {
+    color: var(--blue);
     color: blue;
     font-size:60px;
 }
 
 .main-header__title--orange {
+    color: var(--orange);
     color: orange;
     font-size:60px;
 }
@@ -25,20 +27,22 @@
 .main-header__menu ul {
     display: flex;
     justify-content: flex-end;
-    list-style-type: none;
+    list-style: none;
+    
 }
 
 .main-header__menu a {
     padding: 10px 10px;
+    color: var(--gray);
     color: gray;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 22px;
     text-decoration: none;
     transition: all .3s ease-in-out;
 }
 
 .main-header__menu a:hover {
-    background-color: var(--blue);
+    background-color: blue;
     color: #fff;
 }
 
@@ -50,7 +54,7 @@
 }
 
 .badge-carrinho {
-    background-color: var(--dark-blue);
+    background-color: dark-blue;
     padding: 5px 10px;    
     border-radius: 4px;
     color: white;
@@ -63,10 +67,10 @@
 
 .search-form input{
     box-sizing: border-box;
-    height: 30px;
-    padding: 18px;
+    height: 56px;
+    padding: 28px;
     flex:1;
-    background-color: rgb(211, 211, 211);
+    background-color: 	rgb(211,211,211);
     color: gray;
     border: none;
     transition: all -3s ease-in-out;
@@ -74,8 +78,8 @@
 }
 
 .search-form button{
-    width: 35px;
-    height: 35px;
+    width: 56px;
+    height: 56px;
     background-color: blue;
     border:none;
     color: #fff;
