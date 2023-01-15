@@ -30,6 +30,10 @@ vscode/*
 /vscode
 .vscode
 ./vscode
+/.vscode
+vscode
+vscode/
+!vscode
 
 # Miscellaneous
 /.angular/cache

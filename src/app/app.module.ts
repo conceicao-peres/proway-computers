@@ -13,7 +13,7 @@ import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.componen
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    NaoEncontradaComponent
+    NaoEncontradaComponent,
   ],
   imports: [
     BrowserModule,
