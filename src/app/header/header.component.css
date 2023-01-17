@@ -13,13 +13,11 @@
 }
 
 .main-header__title--blue {
-    color: var(--blue);
     color: blue;
     font-size:60px;
 }
 
 .main-header__title--orange {
-    color: var(--orange);
     color: orange;
     font-size:60px;
 }
@@ -33,7 +31,6 @@
 
 .main-header__menu a {
     padding: 10px 10px;
-    color: var(--gray);
     color: gray;
     font-weight: 400;
     font-size: 22px;
@@ -54,7 +51,7 @@
 }
 
 .badge-carrinho {
-    background-color: dark-blue;
+    background-color: blue;
     padding: 5px 10px;    
     border-radius: 4px;
     color: white;
