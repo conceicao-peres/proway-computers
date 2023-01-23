@@ -1,27 +1,40 @@
-# ProwayComputers
+## ProwayComputers
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
+ Projeto Final do treinamento de Angular do programa Stard By Capgemini com a ProWay
 
-## Development server
+## Informações e funcionalidades do projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+A atividade consiste na elaboração de uma aplicação web utilizando a abordagem SPA para a criação de um eCommerce (ProWay Computers).
 
-## Code scaffolding
+- **Cabeçalho** - O cabeçalho contem:
+- [x] `Logo da ProWay`
+- [x] `Menu de navegação entre as páginas da aplicação (Produtos, Carrinho e Contato)`
+- [ ] `Barra de pesquisa`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Página produtos** - Página principal da aplicação, contendo informações sobre os produtos, a partir dela é possível:
+- [x] `Visualizar os detalhes dos produtos`
+- [x] ` Especificar a quantidade de itens`
+- [x] `Adicionar produtos ao carrinho`
+- [x] `Adicionar produtos ao carrinho`
 
-## Build
+- **Página carrinho** - :
+- [x] `Visualizar os produtos adicionados ao carrinho`
+- [x] `Diminuir ou amentar a quantidade do item`
+- [x] `Remover o item do carrinho`
+- [x] `Visualizar o valor total dos produtos adicionados ao carrinho`
+- [x] `finalizar a compra`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Página contato** - :
+- [x] `Formulário reativo, validando os campos e trazendo mensagens de erro caso não atinja os requerimentos do campo`
 
-## Running unit tests
+## Tecnologias utilizadas
+* [Angular CLI](https://github.com/angular/angular-cli) 15.0.1.
+* Node.js 18.12.1
+* NPM 9.1.2
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Como instalar
+* Baixe ou clone este repositório usando git clone `https://github.com/conceicao-peres/proway-computers.git`
+* Dentro do diretório, instale as dependências usando `npm install`.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Como excecutar e compilar
+* Excecute `npm start`
