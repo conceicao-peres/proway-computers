@@ -1,6 +1,6 @@
-## ProwayComputers
+# ProwayComputers
 
- Projeto Final do treinamento de Angular do programa Stard By Capgemini com a ProWay
+ Projeto Final do treinamento de Angular do programa Start By Capgemini com a ProWay
 
 ## Informações e funcionalidades do projeto
 
@@ -13,7 +13,7 @@ A atividade consiste na elaboração de uma aplicação web utilizando a abordag
 
 - **Página produtos** - Página principal da aplicação, contendo informações sobre os produtos, a partir dela é possível:
 - [x] `Visualizar os detalhes dos produtos`
-- [x] ` Especificar a quantidade de itens`
+- [x] `Especificar a quantidade de itens`
 - [x] `Adicionar produtos ao carrinho`
 - [x] `Adicionar produtos ao carrinho`
 
