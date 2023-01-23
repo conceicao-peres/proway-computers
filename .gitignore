@@ -52,3 +52,5 @@ Thumbs.db
 .editorconfig
 .angular
 node_modules
+
+*.json
