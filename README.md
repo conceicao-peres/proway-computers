@@ -38,3 +38,5 @@
 
 ## Como excecutar e compilar
 * Excecute `npm start`
+* Acesse `localhost:4200/`
+
