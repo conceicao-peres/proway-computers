@@ -45,6 +45,7 @@
 .footer li {
     margin: 10px 0;
     list-style: none;
+    font-weight: 700;
 }
 
 .footer__copyright ul{
