@@ -62,3 +62,14 @@ input {
     filter: brightness(0.9);
 }
 
+@media(max-width: 992px) {
+    ul{
+        display: flex;
+        padding: 0;
+        margin: 0;
+        margin-left: 5px;
+        font-size: small;
+        font-weight: 700;
+    }
+}
+
