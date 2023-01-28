@@ -70,3 +70,41 @@
     background-color: blue;
     color: #fff;
 }
+
+@media(max-width: 992px) {
+    .footer, .footer__container{
+        margin: 0;
+        padding: 0;
+    }
+    .footer__title{
+        width: 90vw;
+        text-align: center;
+        margin-right: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+    }
+    .footer__container section{
+        display: none;
+    }
+
+    address li{
+        font-size: small;
+        flex-wrap: wrap;
+    }
+    .footer__copyright{
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-left: 20px;
+        text-align: justify;
+        font-size: small;
+    }
+    .footer__copyright ul{
+        width: 60vw;
+    }
+    .footer__copyright li{
+        width: 100%;
+        font-size: small;
+
+    }
+}
